@@ -31,7 +31,7 @@ class Command(BaseCommand):
         Activity.objects.create(user=users[1], type='Cycling', duration=45, calories=400, date='2026-03-03')
         Activity.objects.create(user=users[2], type='Swimming', duration=60, calories=500, date='2026-03-02')
         Activity.objects.create(user=users[3], type='Yoga', duration=40, calories=200, date='2026-03-01')
-        Activity.objects.create(user=users[4], type='Boxing', duration=50, calories=450, date='2026-02-29')
+        Activity.objects.create(user=users[4], type='Boxing', duration=50, calories=450, date='2026-02-28')
         Activity.objects.create(user=users[5], type='Pilates', duration=35, calories=250, date='2026-02-28')
 
         # Create Workouts
